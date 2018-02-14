@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "199884c7cdeccf9a0136f1ed5c7879a3",
+    "packages": [
+        {
+            "name": "pgrimaud/horaires-ratp-sdk",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgrimaud/horaires-ratp-sdk.git",
+                "reference": "8272dd63c3824b430add9eb007144a0804b32341"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgrimaud/horaires-ratp-sdk/zipball/8272dd63c3824b430add9eb007144a0804b32341",
+                "reference": "8272dd63c3824b430add9eb007144a0804b32341",
+                "shasum": ""
+            },
+            "require": {
+                "ext-soap": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ratp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Grimaud",
+                    "email": "grimaud.pierre@gmail.com"
+                }
+            ],
+            "description": "RATP SDK - Retrieve schedules for any given RER (train), Metro, or Tramway stop in real time. The RATP is a public transport operator based in Paris, France.",
+            "homepage": "https://github.com/pgrimaud/horaires-ratp-sdk",
+            "time": "2017-10-11T20:39:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
