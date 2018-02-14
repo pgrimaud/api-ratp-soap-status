@@ -1,0 +1,5 @@
+{
+  "require": {
+    "pgrimaud/horaires-ratp-sdk": "^1.1"
+  }
+}
